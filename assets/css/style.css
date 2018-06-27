@@ -1,0 +1,109 @@
+body {
+    background-image: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2016/02/glitter-wallpaper-6.jpg");
+    
+}
+
+#crystalbox {
+    align-content: center;
+    width: 150px;
+    height: 50px;
+    border: 0;
+    padding: 0;
+    margin: auto;
+    background-color: 	#FF7F50;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    font-size: 14px;
+    text-align: center;
+}
+
+#instructions{
+    align-content: center;
+    width: 500px;
+    height: auto;
+    border: 0;
+    padding: 0;
+    margin: 25px auto 25px auto;
+    background-color: #DEB887;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(41, 146, 59);
+    font-size: 14px;
+    text-align: center;
+}
+
+divthree#{
+    align-content: center;
+    width: 500px;
+    height: auto;
+    border: 0;
+    padding: 0;
+    margin: 25px auto 25px auto;
+   }
+
+#randombox {
+    align-content: center;
+    width: 60px;
+    height: auto;
+    border: 0;
+    padding: 0;
+    margin: 25px auto 25px auto;
+    background-color: rgb(17, 121, 17);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: purple;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+
+#score{
+    align-content: center;
+    width: 60px;
+    height: auto;
+    border: 0;
+    padding: 0;
+    margin: 25px auto 25px auto;
+    background-color: rgb(61, 219, 211);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+}
+
+#crystals {
+    align-content: center;
+    max-width: 725px;
+    height: 180px;
+    border: 0;
+    padding: 0;
+    margin: 25px auto 25px auto;
+    background-color: white;
+    object-fit: contain;
+    
+}
+
+#totalscore {
+    align-content: center;
+    width: 60px;
+    height: auto;
+    border: 0;
+    padding: 0;
+    margin: 25px auto 25px auto;
+    background-color: rgb(17, 124, 101);
+    font-size: 14px;
+    text-align: center;
+    color: aliceblue;
+}
+
+#points {
+    align-content: center;
+    width: 60px;
+    height: auto;
+    border: 0;
+    padding: 0;
+    margin: 25px auto 25px auto;
+    background-color: white;
+    font-size: 14px;
+    text-align: center;
+    color: aliceblue;
+}
