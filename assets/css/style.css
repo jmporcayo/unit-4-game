@@ -57,6 +57,7 @@ divthree#{
 
 
 #score{
+    float: left;
     align-content: center;
     width: 60px;
     height: auto;
@@ -72,13 +73,10 @@ divthree#{
 
 #crystals {
     align-content: center;
-    max-width: 725px;
-    height: 180px;
-    border: 0;
-    padding: 0;
-    margin: 25px auto 25px auto;
-    background-color: white;
-    object-fit: contain;
+   background-color: white;
+   width: 707px;
+   height: 200px;
+    
     
 }
 
