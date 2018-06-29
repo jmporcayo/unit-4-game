@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="jquery-3.3.1.min.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <title>Document</title>
+    <title>CRYSTALCOLLECTOR</title>
 </head>
 <body>
+    <div ="container">
     <div id="crystalbox">Crystal Collector!</div>
     <div id ="instructions">
         <p>You will be given a random number at the start of the game.
@@ -22,17 +26,30 @@
         Each time when the game starts, the game will change the values of each crystal.
         </p>
     </div>
+    <div id="wins"></div>
+    <div id = "losses"></div>
     <div id="divthree">
         <div id="randombox"></div> <!-- generate new randm number 19-120-->
         <div id="score"></div> <!--wins and losses-->
     </div>
     <div id="crystals"> <!--generate random number for each crystal 1-12-->
-       <div id="random-button"><img src="C:\Users\jmpor\bootcamp\unit-4-game\assets\images/bluejewel.png" alt="bluejewel"></div>
-        <img src="C:\Users\jmpor\bootcamp\unit-4-game\assets\images/purplejewel.png" alt="purplejewel">
-        <img src="C:\Users\jmpor\bootcamp\unit-4-game\assets\images/greenjewel.png" alt="greenjewel">
-        <img src="C:\Users\jmpor\bootcamp\unit-4-game\assets\images/redjewel.png" alt="redjewel">
+       <div id="random-button"></div>
+
+       <div >
+            <img class="crystal-image" id="crystalOne" src="C:\Users\jmpor\bootcamp\unit-4-game\assets\images/bluejewel.png" alt="bluejewel">
+       </div>
+       <div > 
+          <img class="crystal-image" id="crystalTwo" src="C:\Users\jmpor\bootcamp\unit-4-game\assets\images/purplejewel.png" alt="purplejewel">
+        </div>
+
+        <div >
+         <img class="crystal-image" id="crystalThree" src="C:\Users\jmpor\bootcamp\unit-4-game\assets\images/greenjewel.png" alt="greenjewel">
+        </div>
+        <div >
+            <img class="crystal-image" id="crystalFour" src="C:\Users\jmpor\bootcamp\unit-4-game\assets\images/redjewel.png" alt="redjewel">
+        </div>
     </div>
-    <div id="totalscore">Your total score is:</div>
+    <div id="totalscore">Your total score is: <span id="crystalScore"></span></div>
     <div id="points"></div>
 
     <script>
@@ -62,6 +79,7 @@
     // });
 
     </script>
-    
+    </div>
+    <script src="./assets/javascript/game.js"></script>
 </body>
 </html>
