@@ -4,52 +4,53 @@ body {
 }
 
 #crystalbox {
-    align-content: center;
-    width: 150px;
+    /* align-content: center; */
+    width: 300px;
     height: 50px;
     border: 0;
-    padding: 0;
-    margin: auto;
-    background-color: 	#FF7F50;
+    padding: 25px 0 0 0;
+    margin: 15px;
+    background-color: none;
     font-family: 'Times New Roman', Times, serif;
-    color: aliceblue;
-    font-size: 14px;
+    color: rgb(241, 243, 239);
+    font-size: 36px;
+    font-weight: bolder;
     text-align: center;
 }
 
 #instructions{
-    align-content: center;
-    width: 500px;
+    /* align-content: center; */
+    width: 300px;
     height: auto;
     border: 0;
     padding: 0;
-    margin: 25px auto 25px auto;
+    margin: 10px;
     background-color: #DEB887;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(41, 146, 59);
-    font-size: 14px;
+    font-size: 10px;
     text-align: center;
 }
 
 divthree#{
-    align-content: center;
+    /* align-content: center; */
     width: 500px;
     height: auto;
     border: 0;
     padding: 0;
-    margin: 25px auto 25px auto;
+    margin: 10px;
    }
 
 #randombox {
-    align-content: center;
+    /* align-content: center; */
     width: 60px;
     height: auto;
     border: 0;
     padding: 0;
-    margin: 25px auto 25px auto;
+    margin:10px 10px 10px 35px;
     background-color: rgb(17, 121, 17);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: purple;
+    color: rgb(228, 192, 228);
     font-size: 14px;
     text-align: center;
 
@@ -58,12 +59,12 @@ divthree#{
 
 #score{
     float: left;
-    align-content: center;
+    /* align-content: center; */
     width: 60px;
     height: auto;
     border: 0;
     padding: 0;
-    margin: 25px auto 25px auto;
+    margin: 10px;
     background-color: rgb(61, 219, 211);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: black;
@@ -72,7 +73,7 @@ divthree#{
 }
 
 #crystals {
-    align-content: center;
+    /* align-content: center; */
    background-color: white;
    width: 707px;
    height: 200px;
@@ -81,12 +82,12 @@ divthree#{
 }
 
 #totalscore {
-    align-content: center;
+    /* align-content: center; */
     width: 60px;
     height: auto;
     border: 0;
     padding: 0;
-    margin: 25px auto 25px auto;
+    margin: 10px;
     background-color: rgb(17, 124, 101);
     font-size: 14px;
     text-align: center;
@@ -94,12 +95,12 @@ divthree#{
 }
 
 #points {
-    align-content: center;
+    /* align-content: center; */
     width: 60px;
     height: auto;
     border: 0;
     padding: 0;
-    margin: 25px auto 25px auto;
+    margin: 10px;
     background-color: white;
     font-size: 14px;
     text-align: center;

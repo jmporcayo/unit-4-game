@@ -93,7 +93,33 @@ function checkWinLoss(){
 startGame();
 
 
+/* <script>
+var user 
+var computerChoice
+var randomNumber = 120
 
+var keepScore 
+var trackPoints
+var wins 
+var losses 
+
+
+$("#randombox").on("click", function() {
+    var randomNumber = Math.floor(Math.random());
+      $("#randombox").text(random);
+      
+});
+
+
+// $("#random-button").on("click", function() {
+//     var random = Math.floor(Math.random();
+//     $("#random-number").text(random);
+
+//   });
+
+// });
+
+</script> */
 
 
 

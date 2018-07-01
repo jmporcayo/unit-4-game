@@ -8,77 +8,77 @@
   src="https://code.jquery.com/jquery-3.3.1.js"
   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
   crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>CRYSTALCOLLECTOR</title>
 </head>
 <body>
     <div ="container">
+        <div class="row">
+                <div class="col-md-12">
     <div id="crystalbox">Crystal Collector!</div>
-    <div id ="instructions">
+    </div>
+    </div>
+    <div class="row">
+         <div class="col-md-12">
+             <div id ="instructions">
         <p>You will be given a random number at the start of the game.
-        <br>
         There are four crystals below. By clicking on a crystal you will add a specific amount of points to you total score.
-        <br>
         You win the game by matching your total score to a random number, you lose the game if your toal score goes above the random number.
-        <br>
         The value of each crystal is hidden from you until  you click on it.
-        <br>
         Each time when the game starts, the game will change the values of each crystal.
         </p>
+             </div>
+         </div>
     </div>
-    <div id="wins"></div>
-    <div id = "losses"></div>
     <div id="divthree">
-        <div id="randombox"></div> <!-- generate new randm number 19-120-->
-        <div id="score"></div> <!--wins and losses-->
+        <div class="row">
+            <div class="col-md-2">
+                  <div id="randombox"></div> <!-- generate new randm number 19-120-->
+            </div>
+            <div class="col-md-2">
+                <div id="score"> <!--wins and losses-->
+                    <div id="wins"></div>
+                    <div id = "losses"></div>
+                </div>
+            </div>
+            
+        </div>
     </div>
+    <div class="row">
+    <div class="col-md-12">
     <div id="crystals"> <!--generate random number for each crystal 1-12-->
        <div id="random-button"></div>
 
        <div >
-            <img class="crystal-image" id="crystalOne" src="C:\Users\jmpor\bootcamp\unit-4-game\assets\images/bluejewel.png" alt="bluejewel">
+            <img class="crystal-image" id="crystalOne" img src="http://rs145.pbsrc.com/albums/r206/lazygirln916/bluejewel.png~c100?t=1530380102" alt="blue crystal">
        </div>
        <div > 
-          <img class="crystal-image" id="crystalTwo" src="C:\Users\jmpor\bootcamp\unit-4-game\assets\images/purplejewel.png" alt="purplejewel">
+          <img class="crystal-image" id="crystalTwo" img src="http://rs145.pbsrc.com/albums/r206/lazygirln916/purplejewel.png~c100?t=1530380102" alt="purple crystal">
         </div>
 
         <div >
-         <img class="crystal-image" id="crystalThree" src="C:\Users\jmpor\bootcamp\unit-4-game\assets\images/greenjewel.png" alt="greenjewel">
+         <img class="crystal-image" id="crystalThree" img src="http://rs145.pbsrc.com/albums/r206/lazygirln916/greenjewel.png~c100?t=1530380102" alt="green crystal">
         </div>
         <div >
-            <img class="crystal-image" id="crystalFour" src="C:\Users\jmpor\bootcamp\unit-4-game\assets\images/redjewel.png" alt="redjewel">
+            <img class="crystal-image" id="crystalFour" img src="http://rs145.pbsrc.com/albums/r206/lazygirln916/redjewel.png~c100?t=1530380102" alt="red crystal">
         </div>
     </div>
-    <div id="totalscore">Your total score is: <span id="crystalScore"></span></div>
-    <div id="points"></div>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-12">
+             <div id="totalscore">Your total score is: <span id="crystalScore"></span></div>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-12">
+             <div id="points"></div>
+    </div>
+    </div>
 
-    <script>
-        var user 
-        var computerChoice
-        var randomNumber = 120
-    
-        var keepScore 
-        var trackPoints
-        var wins 
-        var losses 
-
-    
-        $("#randombox").on("click", function() {
-            var randomNumber = Math.floor(Math.random());
-              $("#randombox").text(random);
-              
-        });
-
-
-    // $("#random-button").on("click", function() {
-    //     var random = Math.floor(Math.random();
-    //     $("#random-number").text(random);
-
-    //   });
-
-    // });
-
-    </script>
+   
     </div>
     <script src="./assets/javascript/game.js"></script>
 </body>
